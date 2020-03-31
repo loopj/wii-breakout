@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name project-footprints)(type KiCad)(uri ${KIPRJMOD}/libraries/project-footprints)(options "")(descr ""))
+  (lib (name Desktop)(type KiCad)(uri /Users/jamessmith/Desktop)(options "")(descr ""))
+)
