@@ -14,106 +14,41 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x02_Male J7
-U 1 1 5E6B1D90
-P 3550 2450
-F 0 "J7" H 3522 2424 50  0000 R CNN
-F 1 "Bluetooth" H 3522 2333 50  0000 R CNN
-F 2 "project-footprints:TestPoint_2Pads_2.0x1.0mm" H 3550 2450 50  0001 C CNN
-F 3 "~" H 3550 2450 50  0001 C CNN
-	1    3550 2450
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 1450 2700 1450
-Wire Wire Line
-	2700 1450 2700 1150
-Wire Wire Line
-	2450 1550 2800 1550
-Wire Wire Line
-	2800 1550 2800 1250
-Wire Wire Line
-	2700 1150 3350 1150
-Wire Wire Line
-	2800 1250 3350 1250
-$Comp
 L Connector:Conn_01x01_Male J6
 U 1 1 5E6B2955
-P 3550 2150
-F 0 "J6" H 3522 2174 50  0000 R CNN
-F 1 "Reset" H 3522 2083 50  0000 R CNN
-F 2 "project-footprints:TestPoint_Pad_2.0x1.0mm" H 3550 2150 50  0001 C CNN
-F 3 "~" H 3550 2150 50  0001 C CNN
-	1    3550 2150
+P 4350 2150
+F 0 "J6" H 4322 2174 50  0000 R CNN
+F 1 "RST" H 4322 2083 50  0000 R CNN
+F 2 "project-footprints:TestPoint_Pad_2.0x1.0mm" H 4350 2150 50  0001 C CNN
+F 3 "~" H 4350 2150 50  0001 C CNN
+	1    4350 2150
 	-1   0    0    -1  
 $EndComp
-Text Label 3350 2150 2    50   ~ 0
+Text Label 3950 2150 0    50   ~ 0
 RST
-$Comp
-L Connector_Generic_MountingPin:Conn_01x09_MountingPin J1
-U 1 1 5E6AB7D8
-P 2250 1850
-F 0 "J1" H 2172 2467 50  0000 C CNN
-F 1 "Peripherals" H 2172 2376 50  0000 C CNN
-F 2 "Connector_JST:JST_SH_BM09B-SRSS-TB_1x09-1MP_P1.00mm_Vertical" H 2250 1850 50  0001 C CNN
-F 3 "~" H 2250 1850 50  0001 C CNN
-F 4 "JST" H 2250 1850 50  0001 C CNN "Manufacturer"
-F 5 "BM09B-SRSS-TB(LF)(SN)" H 2250 1850 50  0001 C CNN "MPN"
-	1    2250 1850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J4
-U 1 1 5E6B02F6
-P 3550 1150
-F 0 "J4" H 3522 1124 50  0000 R CNN
-F 1 "USB" H 3522 1033 50  0000 R CNN
-F 2 "project-footprints:TestPoint_2Pads_2.0x1.0mm" H 3550 1150 50  0001 C CNN
-F 3 "~" H 3550 1150 50  0001 C CNN
-	1    3550 1150
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Connector:Conn_01x04_Male J5
 U 1 1 5E6AE12F
-P 3550 1650
-F 0 "J5" H 3522 1624 50  0000 R CNN
-F 1 "GameCube" H 3522 1533 50  0000 R CNN
-F 2 "project-footprints:TestPoint_4Pads_2.0x1.0mm" H 3550 1650 50  0001 C CNN
-F 3 "~" H 3550 1650 50  0001 C CNN
-	1    3550 1650
+P 4350 1650
+F 0 "J5" H 4322 1624 50  0000 R CNN
+F 1 "GC" H 4322 1533 50  0000 R CNN
+F 2 "project-footprints:TestPoint_4Pads_2.0x1.0mm" H 4350 1650 50  0001 C CNN
+F 3 "~" H 4350 1650 50  0001 C CNN
+	1    4350 1650
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 1650 2900 1650
+	2450 1650 3100 1650
 Wire Wire Line
-	2900 1650 2900 1550
-Wire Wire Line
-	2900 1550 3350 1550
-Wire Wire Line
-	2450 1750 3000 1750
-Wire Wire Line
-	3000 1750 3000 1650
-Wire Wire Line
-	3000 1650 3350 1650
+	2450 1750 3100 1750
 Wire Wire Line
 	2450 1850 3100 1850
 Wire Wire Line
-	3100 1850 3100 1750
+	2450 1950 3100 1950
 Wire Wire Line
-	3100 1750 3350 1750
+	2450 2050 3100 2050
 Wire Wire Line
-	2450 1950 3200 1950
-Wire Wire Line
-	3200 1950 3200 1850
-Wire Wire Line
-	3200 1850 3350 1850
-Wire Wire Line
-	2450 2050 2900 2050
-Wire Wire Line
-	2900 2050 2900 2150
-Wire Wire Line
-	2900 2150 3350 2150
+	3950 2150 4150 2150
 Wire Wire Line
 	2450 2150 2800 2150
 Wire Wire Line
@@ -126,35 +61,6 @@ Wire Wire Line
 	2700 2250 2700 2550
 Wire Wire Line
 	2700 2550 3350 2550
-Text Label 3350 1250 2    50   ~ 0
-USB_D-
-Text Label 3350 1150 2    50   ~ 0
-USB_D+
-Text Label 3350 1850 2    50   ~ 0
-GC_1
-Text Label 3350 1750 2    50   ~ 0
-GC_2
-Text Label 3350 1650 2    50   ~ 0
-GC_3
-Text Label 3350 1550 2    50   ~ 0
-GC_4
-Text Label 3350 2550 2    50   ~ 0
-BT_D-
-Text Label 3350 2450 2    50   ~ 0
-BT_D+
-$Comp
-L Connector_Generic_MountingPin:Conn_01x04_MountingPin J3
-U 1 1 5E6E5E9A
-P 2250 4350
-F 0 "J3" H 2172 4667 50  0000 C CNN
-F 1 "Video" H 2172 4576 50  0000 C CNN
-F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 2250 4350 50  0001 C CNN
-F 3 "~" H 2250 4350 50  0001 C CNN
-F 4 "JST" H 2250 4350 50  0001 C CNN "Manufacturer"
-F 5 "BM04B-SRSS-TB(LF)(SN)" H 2250 4350 50  0001 C CNN "MPN"
-	1    2250 4350
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2450 3250 3350 3250
 Wire Wire Line
@@ -181,20 +87,9 @@ U 1 1 5E6C8CF3
 P 750 1400
 F 0 "H1" H 850 1449 50  0000 L CNN
 F 1 "MountingHole_Pad" H 850 1358 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 750 1400 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad" H 750 1400 50  0001 C CNN
 F 3 "~" H 750 1400 50  0001 C CNN
 	1    750  1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 5E6C97A4
-P 750 1500
-F 0 "#PWR0101" H 750 1250 50  0001 C CNN
-F 1 "GND" H 755 1327 50  0000 C CNN
-F 2 "" H 750 1500 50  0001 C CNN
-F 3 "" H 750 1500 50  0001 C CNN
-	1    750  1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -203,7 +98,7 @@ U 1 1 5E6CAB0C
 P 750 2000
 F 0 "H2" H 850 2049 50  0000 L CNN
 F 1 "MountingHole_Pad" H 850 1958 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 750 2000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad" H 750 2000 50  0001 C CNN
 F 3 "~" H 750 2000 50  0001 C CNN
 	1    750  2000
 	1    0    0    -1  
@@ -240,44 +135,6 @@ F 2 "" H 750 800 50  0001 C CNN
 F 3 "~" H 750 800 50  0001 C CNN
 	1    750  800 
 	1    0    0    -1  
-$EndComp
-NoConn ~ 2250 4750
-NoConn ~ 2250 2450
-$Comp
-L Connector:Conn_01x01_Male J10
-U 1 1 5E825F7C
-P 3550 5050
-F 0 "J10" H 3522 5074 50  0000 R CNN
-F 1 "Ground" H 3522 4983 50  0000 R CNN
-F 2 "project-footprints:TestPoint_Pad_2.0x1.0mm" H 3550 5050 50  0001 C CNN
-F 3 "~" H 3550 5050 50  0001 C CNN
-	1    3550 5050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 5E827D09
-P 2550 5150
-F 0 "#PWR0103" H 2550 4900 50  0001 C CNN
-F 1 "GND" H 2555 4977 50  0000 C CNN
-F 2 "" H 2550 5150 50  0001 C CNN
-F 3 "" H 2550 5150 50  0001 C CNN
-	1    2550 5150
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2250 3650
-$Comp
-L Connector_Generic_MountingPin:Conn_01x03_MountingPin J2
-U 1 1 5E6E7AC7
-P 2250 3350
-F 0 "J2" H 2150 3700 50  0000 C CNN
-F 1 "Audio" H 2150 3600 50  0000 C CNN
-F 2 "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical" H 2250 3350 50  0001 C CNN
-F 3 "~" H 2250 3350 50  0001 C CNN
-F 4 "JST" H 2250 3350 50  0001 C CNN "Manufacturer"
-F 5 "BM03B-SRSS-TB(LF)(SN)" H 2250 3350 50  0001 C CNN "MPN"
-	1    2250 3350
-	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0104
@@ -320,10 +177,6 @@ Wire Wire Line
 	2450 4550 2550 4550
 Wire Wire Line
 	2550 4550 2550 4600
-Wire Wire Line
-	3350 5050 2550 5050
-Wire Wire Line
-	2550 5050 2550 5150
 $Comp
 L Connector:Conn_01x02_Male J8
 U 1 1 5E834D7E
@@ -334,5 +187,126 @@ F 2 "project-footprints:TestPoint_2Pads_2.0x1.0mm" H 3550 3250 50  0001 C CNN
 F 3 "~" H 3550 3250 50  0001 C CNN
 	1    3550 3250
 	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E6C97A4
+P 750 1500
+F 0 "#PWR0101" H 750 1250 50  0001 C CNN
+F 1 "GND" H 755 1327 50  0000 C CNN
+F 2 "" H 750 1500 50  0001 C CNN
+F 3 "" H 750 1500 50  0001 C CNN
+	1    750  1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5E6E7AC7
+P 2250 3350
+F 0 "J2" H 2150 3700 50  0000 C CNN
+F 1 "Audio" H 2150 3600 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical" H 2250 3350 50  0001 C CNN
+F 3 "~" H 2250 3350 50  0001 C CNN
+F 4 "JST" H 2250 3350 50  0001 C CNN "Manufacturer"
+F 5 "BM03B-SRSS-TB(LF)(SN)" H 2250 3350 50  0001 C CNN "MPN"
+	1    2250 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x07 J1
+U 1 1 5E6AB7D8
+P 2250 1950
+F 0 "J1" H 2172 2567 50  0000 C CNN
+F 1 "Peripherals" H 2172 2476 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_BM07B-SRSS-TB_1x07-1MP_P1.00mm_Vertical" H 2250 1950 50  0001 C CNN
+F 3 "~" H 2250 1950 50  0001 C CNN
+F 4 "JST" H 2250 1950 50  0001 C CNN "Manufacturer"
+F 5 "BM09B-SRSS-TB(LF)(SN)" H 2250 1950 50  0001 C CNN "MPN"
+	1    2250 1950
+	-1   0    0    1   
+$EndComp
+Text Label 3350 900  2    50   ~ 0
+USB_D+
+Text Label 3350 1000 2    50   ~ 0
+USB_D-
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 5E6B02F6
+P 3550 1000
+F 0 "J4" H 3522 974 50  0000 R CNN
+F 1 "USB" H 3522 883 50  0000 R CNN
+F 2 "project-footprints:TestPoint_2Pads_2.0x1.0mm" H 3550 1000 50  0001 C CNN
+F 3 "~" H 3550 1000 50  0001 C CNN
+	1    3550 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J10
+U 1 1 5ED045D0
+P 2250 900
+F 0 "J10" H 2168 1117 50  0000 C CNN
+F 1 "USB" H 2168 1026 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical" H 2250 900 50  0001 C CNN
+F 3 "~" H 2250 900 50  0001 C CNN
+	1    2250 900 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 900  3350 900 
+Wire Wire Line
+	2450 1000 3350 1000
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5E6E5E9A
+P 2250 4450
+F 0 "J3" H 2172 4767 50  0000 C CNN
+F 1 "Video" H 2172 4676 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 2250 4450 50  0001 C CNN
+F 3 "~" H 2250 4450 50  0001 C CNN
+F 4 "JST" H 2250 4450 50  0001 C CNN "Manufacturer"
+F 5 "BM04B-SRSS-TB(LF)(SN)" H 2250 4450 50  0001 C CNN "MPN"
+	1    2250 4450
+	-1   0    0    1   
+$EndComp
+Text Label 3350 2550 2    50   ~ 0
+BT_D-
+Text Label 3350 2450 2    50   ~ 0
+BT_D+
+Text Label 3100 1950 2    50   ~ 0
+GC_1
+Text Label 3100 1850 2    50   ~ 0
+GC_2
+Text Label 3100 1650 2    50   ~ 0
+GC_4
+Text Label 3100 1750 2    50   ~ 0
+GC_3
+Text Label 3950 1750 0    50   ~ 0
+GC_3
+Text Label 3950 1850 0    50   ~ 0
+GC_4
+Text Label 3950 1550 0    50   ~ 0
+GC_2
+Text Label 3950 1650 0    50   ~ 0
+GC_1
+Wire Wire Line
+	3950 1550 4150 1550
+Wire Wire Line
+	3950 1650 4150 1650
+Wire Wire Line
+	3950 1750 4150 1750
+Wire Wire Line
+	3950 1850 4150 1850
+Text Label 3100 2050 2    50   ~ 0
+RST
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 5E6B1D90
+P 3550 2550
+F 0 "J7" H 3522 2524 50  0000 R CNN
+F 1 "BT" H 3522 2433 50  0000 R CNN
+F 2 "project-footprints:TestPoint_2Pads_2.0x1.0mm" H 3550 2550 50  0001 C CNN
+F 3 "~" H 3550 2550 50  0001 C CNN
+	1    3550 2550
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
